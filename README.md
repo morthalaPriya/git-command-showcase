@@ -1,25 +1,62 @@
 # git-command-showcase 
 
- -Clone Repository 
- git clone <repository-url> 
 
- -Check status 
- git status 
+##Clone Repository
 
- -Stage Files 
- git add .
+```bash
+git clone <repository-url>
+```
 
- -Commit Changes 
- git commit -m "message" 
+##Git Status
 
- -Push Changes 
- git push 
+```bash
+git status
+```
 
- -Pull Latest Changes 
- git pull 
+##Git Add
 
- -Create Branch
- git checkout -b branch-name
+```bash
+git add .
+```
 
- -Git Stash
- git stash
+##Git Commit
+
+```bash
+git commit -m "Commit message"
+```
+
+##Git Push
+
+```bash
+git push origin main
+```
+
+##Git Pull
+
+```bash
+git pull origin main
+```
+
+##Git Branch
+
+```bash
+git branch
+```
+
+##Git Checkout
+
+```bash
+git checkout -b feature-update
+```
+
+##Git Merge
+
+```bash
+git merge feature-update
+```
+
+##Git Stash
+
+```bash
+git stash
+```
